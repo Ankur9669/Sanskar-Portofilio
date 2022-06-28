@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap');
+:root{
+    --primary-color: #10B981;
+    --secondary-color: #34D399;
+    --dark-gray: #334155;
+    --section-gray-color:#E2E8F0; 
+    --text-color: #FFFAFA;
+}
+hr{
+    margin: 2rem 0rem;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #121212;  
+    max-width: 600px;
+    width: 100%; 
+    margin: auto;
+}
+
+.link-bg-green{
+    color: var(--text-color);
+}
+
+.link-bg-black{
+    color: #121212;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list-non-bulleted{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation{
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 0.6rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+    margin-right: 3rem;
+}
+
+.navigation .nav-brand{
+    font-weight: 600;
+    font-size: large;
+}
+
+.navigation .link{
+    color: #FFFAFA;
+}
+
+.navigation .link-active{
+    font-weight: 900;
+    border: 2px solid #FFFAFA;
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem;
+}
+
+/* Hero Styling*/
+.header{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.header .header-image{
+    margin: auto;
+    max-width: 40%;
+    max-height: 50%;
+    display: block;
+    padding: 2rem 1rem
+}
+
+.header .header-heading{
+    font-weight: 700;
+    font-size: 1.9rem;
+    color:  var(--dark-gray);
+    text-align: center; 
+    max-width: 50%;
+    margin: auto;
+}
+
+/* Section */
+section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.section-background-green{
+    padding: 1rem 1rem;
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+.section-background-green .section-heading{
+    color:var(--text-color);
+    font-weight: 1000;
+    text-align: center;
+    font-size: 3rem;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-shadow: 4px 4px 8px black;
+}
+
+.section-background-green .section-text{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: black
+}
+
+.section-background-black{
+    color: #FFFAFA;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.section-background-black .section-heading{
+    color: var(--primary-color);
+    font-weight: 1000;
+    font-size: 3rem;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-shadow: 4px 4px 8px red;
+}
+
+.section-background-black .section-text{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.button-bg-green{
+    background-color: #121212;
+    border: 2px solid var(--primary-color);
+    padding: 0.5rem 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.button-bg-black{
+    background-color: var(--primary-color);
+    border: 2px solid var(#121212);
+    padding: 0.5rem 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    color: #121212;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    margin-top: 3rem;
+}
+
+.footer .footer-header{
+    color: var(--text-color);
+    font-weight: 1000;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.footer .icon{
+    width: 3em;
+    height: 3em;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+
+.footer .footer-list{
+    text-align: center;
+    margin-block-start: 0em;
+}
+
+.blogs-heading{
+    color: #FFFAFA;
+    text-align: center;
+    font-weight: 700;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px var(--secondary-color);
+}
+
+.blogs-list-item-bg-black{
+    
+    color: var(--primary-color);
+    padding: 1rem 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    border: 2px solid #FFFAFA;
+    border-radius: 2rem;
+}
+
+.projects-list{   
+    padding-inline-start: 1em;
+    padding-inline-end: 1em;
+}
+
+.blogs-project-title-bg-black{
+    color: var(--primary-color);
+}
+
+.blogs-projects-bg-black-text{
+    color: #FFFAFA;
+    font-size: 1rem;
+}
+
+.blogs-background-green .section-heading{
+    font-size: 2rem;
+}
+
+.blogs-background-black .section-heading{
+    font-size: 2rem;
+}
+
+
